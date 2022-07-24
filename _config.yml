@@ -6,7 +6,7 @@ ios_app_id                                : 1627038934                          
 ios_app_country                           : kr                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-playstore_link                            :                                           # Enter Google Play Store URL.
+playstore_link                            : https://play.google.com/store/apps/details?id=com.mobiucare.cardreader                                          # Enter Google Play Store URL.
 presskit_download_link                    :                                  # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
@@ -35,46 +35,27 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
+  - title                                 : 모든 교통카드 잔액 조회 가능
+    description                           : 티머니, 캐시비, 레일플러스, 한페이
     fontawesome_icon_name                 : magic
     
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
+  - title                                 : 간단한 사용 방법
+    description                           : NFC 읽기/쓰기 켜고, 교통카드를 폰에 대기만 하면 끝
     fontawesome_icon_name                 : mobile
 
   - title                                 : Video Support
     description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
     fontawesome_icon_name                 : play-circle
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
+  - title                                 : 교통카드 잔액조회앱은요
+    description                           : 지하철, 버스를 타기 위해서는 티머니, 캐시비, 레일플러스 등 교통카드가 필요합니다. 그런데, 교통카드에 얼마의 잔액이 남았는지 아시나요? 버스에 올라타다가 잔액이 남지 않아 "잔액이 부족합니다"라고 당황한 적 있으시지요? 교통카드 잔액조회 앱은 미리미리 교통카드 충전을 하실 수 있도록 돕는 기능입니다.
     fontawesome_icon_name                 : sync
 
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
+  - title                                 : 이런 점에서 다릅니다
+    description                           : 티머니, 캐시비, 레일플러스 등 전국의 모든 교통카드의 잔액을 읽을 수 있습니다. 꼭 필요한 기능만 있습니다. 불필요한 광고 및 충전 기능은 없이 조회만 합니다. 잔액조회 가 매~우 빠릅니다. 교통카드 잔액 조회 뿐 아니라, 거래 내역(충전 내역, 사용 내역)을 한 번에 볼 수 있습니다. 내 교통 카드 번호를 즉시 확인할 수 있습니다. 청소년 할인 등록을 도와 줍니다. 완전 무료 앱이며, 추가 결제가 불필요합니다. 데이터 사용하지 않는 앱입니다. 개인정보를 저장하지 않습니다.
     fontawesome_icon_name                 : adjust
   
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
-
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
-
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
-
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
-
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
-
+  
 
 
 # Theme Settings
@@ -106,10 +87,6 @@ social_icons_foreground_color             : "#666666"
 social_icons_background_color             : "#e6e6e6"
 
 footer_text_color                         : "#666666"
-
-
-
-
 
 
 
