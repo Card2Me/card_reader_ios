@@ -2,17 +2,17 @@
 page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1627038934                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
-ios_app_country                           : kr                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+ios_app_id                                :                                 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_country                           :                                         # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
-appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+appstore_link                             : https://apps.apple.com/kr/app/%EA%B5%90%ED%86%B5%EC%B9%B4%EB%93%9C-%EC%9E%94%EC%95%A1%EC%A1%B0%ED%9A%8C-%ED%8B%B0%EB%A8%B8%EB%8B%88-%EC%BA%90%EC%8B%9C%EB%B9%84-%EB%A0%88%EC%9D%BC%ED%94%8C%EB%9F%AC%EC%8A%A4-%ED%95%9C%ED%8E%98%EC%9D%B4/id1627038934?uo=4                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            : https://play.google.com/store/apps/details?id=com.mobiucare.cardreader                                          # Enter Google Play Store URL.
 presskit_download_link                    :                                  # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_icon                                  :  assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  :  교통카드 잔액조회                                         # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 :  무료                                         # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : 세상 제일 빠른 잔액조회 방법
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
